@@ -1,5 +1,7 @@
 # .gitignore for FastAPI project
 
+model/yolov8m.pt
+
 # Ignore Python-specific artifacts
 __pycache__/
 *.pyc
