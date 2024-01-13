@@ -130,7 +130,7 @@ async def operate(name: str = Form(...), video: UploadFile = File(...)):
     v_id = 0
 
     conn = psql.connect(
-        dbname="drishti",
+        dbname="xyz",
         user="postgres",
         password="root",
         host="localhost"
@@ -204,8 +204,8 @@ def process(name: str, objects: List[Obj]):
     #     {"object": "sports ball", "freq": 2}
     # ]
 
-    conn = psql.connect(
-        dbname="drishti",
+    conn = psql.connect(            # Enter your database details
+        dbname="xyz",
         user="postgres",
         password="root",
         host="localhost"
