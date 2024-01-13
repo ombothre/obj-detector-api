@@ -1,1 +1,29 @@
-model/yolov8m.pt
+# .gitignore for FastAPI project
+
+# Ignore Python-specific artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+env/
+/.venv
+
+# Ignore local database files
+*.db
+*.sqlite
+*.sql
+
+# Ignore temporary files
+*.log
+*.temp
+*.tmp
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment-specific files
+.env
