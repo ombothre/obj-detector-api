@@ -4,3 +4,4 @@ pydantic
 psycopg2
 torch==2.1.2
 ultralytics==8.0.227
+uvicorn
