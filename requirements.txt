@@ -1,0 +1,6 @@
+fastapi==0.108.0
+opencv-python==4.8.1.78
+pydantic
+psycopg2
+torch==2.1.2
+ultralytics==8.0.227
