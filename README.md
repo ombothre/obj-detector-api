@@ -28,6 +28,16 @@ uvicorn obj_detector:app --reload
 - **Method:** GET
 - **Description:** Simple welcome message to verify the application is running.
 
+## Documentation
+
+```bash
+http://127.0.0.1:8000/docs
+```
+
+- **Route:** `/docs`
+- **Method:** GET
+- **Description:** Docummentation of the API.
+
 ## Process Video
 
 - **Route:** `/process-video/`
